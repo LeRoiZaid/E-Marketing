@@ -1,0 +1,1 @@
+ C:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\.dart_tool\\flutter_build\\c5a7f2d59c1e1c985e1139be4bfd4bb4\\native_assets.yaml: 
