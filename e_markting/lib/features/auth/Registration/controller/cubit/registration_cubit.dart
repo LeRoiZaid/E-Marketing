@@ -20,7 +20,7 @@ class RegistrationCubit extends Cubit<RegistrationState> {
     if (formKey.currentState!.validate()) {
    // ignore: prefer_typing_uninitialized_variables
   
-   Navigator.pushNamed(context, 'login',
+   Navigator.pushNamed(context, 'verfiction',
     arguments: [
     UserNameController.text,
       ]);

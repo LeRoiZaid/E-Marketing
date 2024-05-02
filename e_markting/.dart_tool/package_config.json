@@ -236,6 +236,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "pin_code_fields",
+      "rootUri": "file:///C:/Users/EL7RAQ/AppData/Local/Pub/Cache/hosted/pub.dev/pin_code_fields-8.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "platform",
       "rootUri": "file:///C:/Users/EL7RAQ/AppData/Local/Pub/Cache/hosted/pub.dev/platform-3.1.4",
       "packageUri": "lib/",
@@ -392,7 +398,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-05-02T02:41:55.702485Z",
+  "generated": "2024-05-02T03:57:31.732208Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }

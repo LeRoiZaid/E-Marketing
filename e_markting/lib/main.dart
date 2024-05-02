@@ -58,7 +58,7 @@ class MyRoutes {
       case 'verfiction':
         final List data = settings.arguments as List;
         return MaterialPageRoute<dynamic>(
-          builder: (BuildContext context) => VerficationPage(),
+          builder: (BuildContext context) => VerificationPage(),
         );
       case 'change password':
         return MaterialPageRoute<dynamic>(
