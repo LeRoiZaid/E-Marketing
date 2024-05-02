@@ -2,6 +2,7 @@
 
 // ignore: depend_on_referenced_packages
 import 'package:device_preview/device_preview.dart';
+import 'package:e_markting/dashboard/view/page/dashboard_page.dart';
 import 'package:e_markting/features/auth/onboarding/view/page/onboarding_page.dart';
 import 'package:flutter/material.dart';
 import 'package:e_markting/features/auth/login/view/page/login_page.dart';
@@ -40,7 +41,8 @@ MaterialApp materialApp = MaterialApp(
 class MyRoutes {
   static List<Route> initRoutes = [
     MaterialPageRoute<dynamic>(
-      builder: (BuildContext context) => const OnBoardingPage(),
+      builder: (BuildContext context) => const DashbordPage(),
+      //builder: (BuildContext context) => const OnBoardingPage(),
     ),
   ];
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
