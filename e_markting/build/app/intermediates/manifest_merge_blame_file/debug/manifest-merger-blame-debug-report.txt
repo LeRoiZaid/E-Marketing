@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility?hl=en and
@@ -23,16 +23,16 @@
 21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
 22    -->
 23    <queries>
-23-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\main\AndroidManifest.xml:38:5-43:15
+23-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\main\AndroidManifest.xml:38:5-43:15
 24        <intent>
-24-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\main\AndroidManifest.xml:39:9-42:18
+24-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\main\AndroidManifest.xml:39:9-42:18
 25            <action android:name="android.intent.action.PROCESS_TEXT" />
-25-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\main\AndroidManifest.xml:40:13-72
-25-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\main\AndroidManifest.xml:40:21-70
+25-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\main\AndroidManifest.xml:40:13-72
+25-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\main\AndroidManifest.xml:40:21-70
 26
 27            <data android:mimeType="text/plain" />
-27-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\main\AndroidManifest.xml:41:13-50
-27-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\main\AndroidManifest.xml:41:19-48
+27-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\main\AndroidManifest.xml:41:13-50
+27-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\main\AndroidManifest.xml:41:19-48
 28        </intent>
 29        <intent>
 29-->[com.google.firebase:firebase-inappmessaging-display:20.4.1] C:\Users\EL7RAQ\.gradle\caches\transforms-3\b9906631ede597b282bed160f050645a\transformed\jetified-firebase-inappmessaging-display-20.4.1\AndroidManifest.xml:11:9-15:18
@@ -41,19 +41,19 @@
 30-->[com.google.firebase:firebase-inappmessaging-display:20.4.1] C:\Users\EL7RAQ\.gradle\caches\transforms-3\b9906631ede597b282bed160f050645a\transformed\jetified-firebase-inappmessaging-display-20.4.1\AndroidManifest.xml:12:21-62
 31
 32            <data android:scheme="https" />
-32-->C:\Users\EL7RAQ\Project\e_markting\android\app\src\main\AndroidManifest.xml:41:13-50
+32-->C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\android\app\src\main\AndroidManifest.xml:41:13-50
 33        </intent>
 34    </queries>
 35
 36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-36-->[:firebase_analytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
-36-->[:firebase_analytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+36-->[:firebase_analytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+36-->[:firebase_analytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 37    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
-37-->[:firebase_analytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-68
-37-->[:firebase_analytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-65
+37-->[:firebase_analytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-68
+37-->[:firebase_analytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-65
 38    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-38-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
-38-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+38-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+38-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
 39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 39-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\EL7RAQ\.gradle\caches\transforms-3\6da6dea2f303825e096a56d1a70f3f70\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
 39-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\EL7RAQ\.gradle\caches\transforms-3\6da6dea2f303825e096a56d1a70f3f70\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
@@ -122,61 +122,61 @@
 88            android:value="2" />
 89
 90        <service
-90-->[:firebase_crashlytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+90-->[:firebase_crashlytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 91            android:name="com.google.firebase.components.ComponentDiscoveryService"
-91-->[:firebase_crashlytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+91-->[:firebase_crashlytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 92            android:directBootAware="true"
 92-->[com.google.firebase:firebase-common:20.4.3] C:\Users\EL7RAQ\.gradle\caches\transforms-3\8d4ee856b0501bd4e2deb987ae70e355\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:32:13-43
 93            android:exported="false" >
 93-->[com.google.firebase:firebase-crashlytics:18.6.3] C:\Users\EL7RAQ\.gradle\caches\transforms-3\e614b142783d81bec3d54d950b031f26\transformed\jetified-firebase-crashlytics-18.6.3\AndroidManifest.xml:14:13-37
 94            <meta-data
-94-->[:firebase_crashlytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+94-->[:firebase_crashlytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
-95-->[:firebase_crashlytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-130
+95-->[:firebase_crashlytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-130
 96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[:firebase_crashlytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+96-->[:firebase_crashlytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 97            <meta-data
-97-->[:firebase_analytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+97-->[:firebase_analytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
 98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
-98-->[:firebase_analytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-128
+98-->[:firebase_analytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-128
 99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[:firebase_analytics] C:\Users\EL7RAQ\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+99-->[:firebase_analytics] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_analytics\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
 100            <meta-data
-100-->[:firebase_in_app_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_in_app_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+100-->[:firebase_in_app_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_in_app_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.inappmessaging.FlutterFirebaseAppRegistrar"
-101-->[:firebase_in_app_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_in_app_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-133
+101-->[:firebase_in_app_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_in_app_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-133
 102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[:firebase_in_app_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_in_app_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+102-->[:firebase_in_app_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_in_app_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 103            <meta-data
-103-->[:firebase_remote_config] C:\Users\EL7RAQ\Project\e_markting\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+103-->[:firebase_remote_config] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 104                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar"
-104-->[:firebase_remote_config] C:\Users\EL7RAQ\Project\e_markting\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-139
+104-->[:firebase_remote_config] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-139
 105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[:firebase_remote_config] C:\Users\EL7RAQ\Project\e_markting\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+105-->[:firebase_remote_config] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_remote_config\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 106            <meta-data
-106-->[:cloud_firestore] C:\Users\EL7RAQ\Project\e_markting\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+106-->[:cloud_firestore] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 107                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-107-->[:cloud_firestore] C:\Users\EL7RAQ\Project\e_markting\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+107-->[:cloud_firestore] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
 108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[:cloud_firestore] C:\Users\EL7RAQ\Project\e_markting\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+108-->[:cloud_firestore] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 109            <meta-data
-109-->[:firebase_dynamic_links] C:\Users\EL7RAQ\Project\e_markting\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:85
+109-->[:firebase_dynamic_links] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:85
 110                android:name="com.google.firebase.components:io.flutter.plugins.firebase.dynamiclinks.FlutterFirebaseAppRegistrar"
-110-->[:firebase_dynamic_links] C:\Users\EL7RAQ\Project\e_markting\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-131
+110-->[:firebase_dynamic_links] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-131
 111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[:firebase_dynamic_links] C:\Users\EL7RAQ\Project\e_markting\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-82
+111-->[:firebase_dynamic_links] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_dynamic_links\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-82
 112            <meta-data
-112-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+112-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
 113                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-113-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+113-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
 114                android:value="com.google.firebase.components.ComponentRegistrar" />
-114-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+114-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
 115            <meta-data
-115-->[:firebase_core] C:\Users\EL7RAQ\Project\e_markting\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+115-->[:firebase_core] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 116                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-116-->[:firebase_core] C:\Users\EL7RAQ\Project\e_markting\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+116-->[:firebase_core] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 117                android:value="com.google.firebase.components.ComponentRegistrar" />
-117-->[:firebase_core] C:\Users\EL7RAQ\Project\e_markting\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+117-->[:firebase_core] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 118            <meta-data
 118-->[com.google.firebase:firebase-crashlytics:18.6.3] C:\Users\EL7RAQ\.gradle\caches\transforms-3\e614b142783d81bec3d54d950b031f26\transformed\jetified-firebase-crashlytics-18.6.3\AndroidManifest.xml:15:13-17:85
 119                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
@@ -317,53 +317,53 @@
 186-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\EL7RAQ\.gradle\caches\transforms-3\048f34261ab9994baa4fe902df6961e6\transformed\jetified-firebase-abt-21.1.1\AndroidManifest.xml:14:17-82
 187        </service>
 188        <service
-188-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+188-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
 189            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-189-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+189-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
 190            android:exported="false"
-190-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+190-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 191            android:permission="android.permission.BIND_JOB_SERVICE" />
-191-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+191-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
 192        <service
-192-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+192-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
 193            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-193-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+193-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
 194            android:exported="false" >
-194-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+194-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
 195            <intent-filter>
-195-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+195-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
 196                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-196-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
-196-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+196-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+196-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
 197            </intent-filter>
 198        </service>
 199
 200        <receiver
-200-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+200-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
 201            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-201-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+201-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
 202            android:exported="true"
-202-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+202-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
 203            android:permission="com.google.android.c2dm.permission.SEND" >
-203-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+203-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
 204            <intent-filter>
-204-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+204-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
 205                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-205-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
-205-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+205-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+205-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
 206            </intent-filter>
 207        </receiver>
 208
 209        <provider
-209-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+209-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
 210            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-210-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+210-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
 211            android:authorities="com.example.e_markting.flutterfirebasemessaginginitprovider"
-211-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+211-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
 212            android:exported="false"
-212-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+212-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
 213            android:initOrder="99" />
-213-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+213-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
 214
 215        <receiver
 215-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\EL7RAQ\.gradle\caches\transforms-3\6da6dea2f303825e096a56d1a70f3f70\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
@@ -374,10 +374,10 @@
 218            android:permission="com.google.android.c2dm.permission.SEND" >
 218-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\EL7RAQ\.gradle\caches\transforms-3\6da6dea2f303825e096a56d1a70f3f70\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
 219            <intent-filter>
-219-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+219-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
 220                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-220-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
-220-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+220-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+220-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
 221            </intent-filter>
 222
 223            <meta-data
@@ -400,10 +400,10 @@
 234            android:exported="false" >
 234-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\EL7RAQ\.gradle\caches\transforms-3\6da6dea2f303825e096a56d1a70f3f70\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
 235            <intent-filter android:priority="-500" >
-235-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+235-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
 236                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-236-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
-236-->[:firebase_messaging] C:\Users\EL7RAQ\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+236-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+236-->[:firebase_messaging] C:\Users\EL7RAQ\Documents\GitHub\Project\e_markting\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
 237            </intent-filter>
 238        </service>
 239
