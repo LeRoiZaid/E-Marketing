@@ -38,6 +38,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "checked_yaml",
+      "rootUri": "file:///C:/Users/EL7RAQ/AppData/Local/Pub/Cache/hosted/pub.dev/checked_yaml-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "cli_util",
+      "rootUri": "file:///C:/Users/EL7RAQ/AppData/Local/Pub/Cache/hosted/pub.dev/cli_util-0.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "clock",
       "rootUri": "file:///C:/Users/EL7RAQ/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
@@ -102,6 +114,12 @@
       "rootUri": "file:///C:/Users/EL7RAQ/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_bloc-8.1.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_launcher_icons",
+      "rootUri": "file:///C:/Users/EL7RAQ/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_launcher_icons-0.13.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
     },
     {
       "name": "flutter_lints",
@@ -374,7 +392,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-05-02T00:29:11.449311Z",
+  "generated": "2024-05-02T02:41:55.702485Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }
