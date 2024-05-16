@@ -1,16 +1,36 @@
+import 'package:e_markting/core/context.dart';
+import 'package:e_markting/features/auth/login/controller/cubit/login_cubit.dart';
+import 'package:e_markting/features/auth/login/view/components/bottom_widget.dart';
+import 'package:e_markting/features/auth/login/view/components/required_data_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:e_markting/features/auth/Login/view/components/login_bottom.dart';
-import 'package:e_markting/features/auth/login/view/components/requried_login_data.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 
 class LoginPage extends StatelessWidget {
-  const LoginPage ({super.key});
+  const LoginPage({super.key});
 
+  @override
   Widget build(BuildContext context) {
-    return  SafeArea(
-      child: Scaffold(
-        body:RequriedLoginData(),
-        bottomNavigationBar: const SizedBox(height: 200,child:  LoginBottom(),),
+    return BlocProvider<LoginCubit>(
+      create: (context) => LoginCubit(),
+      child: BlocBuilder<LoginCubit, RegistrationState>(
+        builder: (context, state) {
+          final LoginCubit controller = context.read<LoginCubit>();
+          return Scaffold(
+            appBar: AppBar(),
+            body: SafeArea(
+              child: RequiredDataWidget(
+                controller: controller,
+              ),
+            ),
+            bottomNavigationBar: SizedBox(
+              height: context.height / 4,
+              child: BottomNavigationWidget(
+                controller: controller,
+              ),
+            ),
+          );
+        },
       ),
     );
   }

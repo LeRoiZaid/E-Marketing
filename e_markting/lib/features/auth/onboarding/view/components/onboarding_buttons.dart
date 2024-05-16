@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+// ignore: must_be_immutable
 class OnboardingButtonWidget extends StatelessWidget {
   OnboardingButtonWidget({super.key, required this.controller});
   OnboardingControllerCubit controller;

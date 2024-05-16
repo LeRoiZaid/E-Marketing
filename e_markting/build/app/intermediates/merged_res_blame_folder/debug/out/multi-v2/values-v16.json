@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.e_markting.app-mergeDebugResources-30:/values-v16/values-v16.xml",
+            "outputFile": "com.example.e_markting.app-mergeDebugResources-23:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EL7RAQ\\.gradle\\caches\\transforms-3\\30fcc3014b187b2ffefef5ca610a2b12\\transformed\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\EL7RAQ\\.gradle\\caches\\transforms-3\\75f115a0f1013408c24b813aa08b99f3\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\EL7RAQ\\.gradle\\caches\\transforms-3\\0b9c903fef8d2eb2a269c36999ef4a74\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

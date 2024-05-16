@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">14671332776</string>
-    <string name="google_api_key" translatable="false">AIzaSyCB7ke0G4GJtJFWQ_3l8eGdeigndUapdkk</string>
-    <string name="google_app_id" translatable="false">1:14671332776:android:a6917313b3f4fc3fe6c99d</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCB7ke0G4GJtJFWQ_3l8eGdeigndUapdkk</string>
-    <string name="google_storage_bucket" translatable="false">emarkting.appspot.com</string>
-    <string name="project_id" translatable="false">emarkting</string>
-</resources>
