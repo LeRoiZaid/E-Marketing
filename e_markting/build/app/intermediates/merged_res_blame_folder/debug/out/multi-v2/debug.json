@@ -665,7 +665,7 @@
             "outputFile": "com.example.e_markting.app-merged_res-25:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\SW2-Project\\e_markting\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
@@ -969,7 +969,7 @@
             "outputFile": "com.example.e_markting.app-merged_res-25:/values-night-v31_values-night-v31.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\SW2-Project\\e_markting\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
+                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\android\\app\\src\\main\\res\\values-night-v31\\styles.xml",
                     "from": {
                         "startLines": "3,15",
                         "startColumns": "4,4",
@@ -2311,7 +2311,7 @@
             "outputFile": "com.example.e_markting.app-merged_res-25:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\SW2-Project\\e_markting\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",
@@ -3461,7 +3461,7 @@
             "outputFile": "com.example.e_markting.app-merged_res-25:/values-v31_values-v31.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\SW2-Project\\e_markting\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
                     "from": {
                         "startLines": "3,15",
                         "startColumns": "4,4",

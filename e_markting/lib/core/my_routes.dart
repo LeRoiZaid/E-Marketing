@@ -24,6 +24,7 @@ class MyRoutes {
   static List<Route> initRoutes(bool x) {
   return [
     MaterialPageRoute<dynamic>(
+  //    builder: (BuildContext context) => VerificationPage(),
      builder: (BuildContext context) => const OnBoardingPage(),
   //    builder: (BuildContext context) => const DashboardPage(),
     /*  builder: (BuildContext context) {
@@ -77,7 +78,7 @@ class MyRoutes {
       case 'dashboard':
         return MaterialPageRoute(builder: (_) => const DashboardPage());
       case 'new_product':
-        return MaterialPageRoute(builder: (_) => const NewProductPage());
+        return MaterialPageRoute(builder: (_) =>  NewProductPage());
       case 'users':
         return MaterialPageRoute(builder: (_) => const UserPage());
 
