@@ -4,7 +4,7 @@
             "outputFile": "com.example.e_markting.app-mergeDebugResources-23:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\SW2-Project\\e_markting\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,18",
                         "startColumns": "4,4",

@@ -1,29 +1,32 @@
-
+import 'package:e_markting/core/esmail_textfield_state.dart';
+import 'package:e_markting/core/validation.dart';
+import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:e_markting/core/my_routes.dart';
-import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
   bool onBording = sharedPreferences.getBool('OnBoardingPage') ?? false;
 
- 
+  // تعريف الـ controller هنا
+  TextEditingController controller = TextEditingController();
 
-MaterialApp materialApp = MaterialApp(
-   builder:DevicePreview.appBuilder,
+  MaterialApp materialApp = MaterialApp(
+    
+    builder: DevicePreview.appBuilder,
     useInheritedMediaQuery: true,
     onGenerateRoute: MyRoutes.onGenerateRoute,
     onGenerateInitialRoutes: (_) => MyRoutes.initRoutes(onBording),
-);
-
     
-  runApp(  DevicePreview(
-      enabled: false,
-      builder: (context) => materialApp, // Wrap your app
-    ),);
+  
+  );
+
+  runApp(DevicePreview(
+    enabled: true,
+    builder: (context) => materialApp, // Wrap your app
+  ));
 }
+

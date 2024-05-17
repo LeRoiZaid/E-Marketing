@@ -5,25 +5,33 @@ import 'package:e_markting/features/auth/Registration/view/components/requried_r
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class RegistrationPage extends StatelessWidget {
-  const RegistrationPage({super.key});
+  const RegistrationPage({Key? key});
 
+  @override
   Widget build(BuildContext context) {
     return SafeArea(
-    child: BlocProvider<RegistrationCubit>(
+      child: BlocProvider<RegistrationCubit>(
         create: (context) => RegistrationCubit(),
         child: BlocBuilder<RegistrationCubit, RegistrationState>(
           builder: (context, state) {
             final RegistrationCubit controller = context.read<RegistrationCubit>();
             return Scaffold(
-              body: RequriedRegistrationData(
-                controller: controller,
-              ),
-              bottomNavigationBar:  SizedBox(
-                height: 120,
-                child: RegistrationBottom(
-                controller: controller,
+            /*  appBar: AppBar(
+                
+              ),*/
+              body: ListView(
+                padding: EdgeInsets.all(20.0),
+                children: [
+                  RequriedRegistrationData(
+                    controller: controller,
+                  ),
+                  SizedBox(height:25),
+                  RegistrationBottom(
+                  controller: controller,
                 ),
+                ],
               ),
+          
             );
           },
         ),

@@ -7,7 +7,29 @@ class RegistrationBottom extends StatelessWidget {
   RegistrationBottom({Key? key, required this.controller}) : super(key: key);
 
   final RegistrationCubit controller;
-
+   var x=const TextStyle(
+    fontSize: 18,
+    color: Colors.blue, // لون النص الأساسي
+    fontWeight: FontWeight.bold, // سمك الخط
+    fontStyle: FontStyle.italic, // نمط الخط
+  );
+  var c = ButtonStyle(
+     fixedSize: MaterialStateProperty.all<Size>(
+      Size(250, 60), // ضع هنا الطول والعرض المطلوبين
+    ),
+/*  padding: MaterialStateProperty.all<EdgeInsetsGeometry>(
+    EdgeInsets.symmetric(vertical: 20),
+  ),*/
+backgroundColor: MaterialStateProperty.all<Color>(
+    Colors.blue[700]!,
+  ),
+  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+    RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(10),
+    ),
+  ),
+  elevation: MaterialStateProperty.all<double>(10),
+);
   @override
   Widget build(BuildContext context) {
     return BlocProvider.value(
@@ -22,16 +44,17 @@ class RegistrationBottom extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 0, left: 0),
                 child: ElevatedButton(
                   onPressed: () => controller.onPressedConfirmButton(context),
-                  style: ElevatedButton.styleFrom(
-                    shape: const StadiumBorder(),
-                    padding: const EdgeInsets.symmetric(vertical: 16),
-                    backgroundColor: const Color.fromARGB(255, 3, 32, 112),
+                  
+                      // ignore: sort_child_properties_last
+                      child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 16),
+                      child: Text(
+                        "Sign Up",
+                        style: TextStyle(fontSize: 20, color: Colors.black),
+                      ),
+                    ),
+                    style: c, // Using the local variable
                   ),
-                  child: const Text(
-                    "                        Sign Up                        ",
-                    style: TextStyle(fontSize: 20, color: Colors.white),
-                  ),
-                ),
               ),
               const SizedBox(height: 10),
               Row(
