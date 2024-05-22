@@ -1,4 +1,5 @@
 import 'package:bloc/bloc.dart';
+import 'package:e_markting/features/dashboard/controller/dashboard_cubit.dart';
 import 'package:e_markting/features/dashboard/modules/product/controller/product_cubit.dart';
 import 'package:e_markting/features/dashboard/modules/product/model/repo/database_repo.dart';
 
@@ -13,6 +14,7 @@ class NewProductCubit extends Cubit<NewProductState> {
   TextEditingController nameController = TextEditingController();
   TextEditingController descController = TextEditingController();
   TextEditingController qntController = TextEditingController();
+  TextEditingController priceController = TextEditingController();
   XFile? image;
   Future<void> pickProductImage() async {
     final ImagePicker picker = ImagePicker();
@@ -31,15 +33,22 @@ class NewProductCubit extends Cubit<NewProductState> {
 
   Future<void> addProduct(context) async {
     DatabaseRepo db = DatabaseRepo();
-    db.initDB();
-    db.insertProduct(
+    await db.initDB();
+    await db.insertProduct(
+      db.myObjectDB, // Pass the Database instance from DatabaseRepo
       nameController.text,
       descController.text,
-      0,
       int.parse(qntController.text),
+      int.parse(qntController.text),
+      // Assuming availableQuantity starts from 0
       await image!.readAsBytes(),
+      double.parse(priceController.text),
+      0, // Assuming initial favorite value is 0
+      0, // Assuming initial cart value is 0
     );
     await ProductCubit.instance.init();
-    Navigator.pop(context);
+  //  DashboardCubit().onChangeTab(0);
+  Navigator.pop(context);
+//    Navigator.pushNamed(context, 'verfiction', );
   }
 }

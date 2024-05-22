@@ -82,13 +82,10 @@ address TEXT )
     return result.isNotEmpty;
   }
     Future<void> updatePass(String pass, String email) async {
-    await _database.update(
-        'user',
-        {
-          'pass': pass,
-        },
-        where: 'email',
-        whereArgs: [email]);
+    await _database.rawUpdate(
+    'UPDATE user SET pass = ? WHERE email = ?',
+    [pass, email],
+  );;
   }
 }
 

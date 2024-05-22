@@ -28,15 +28,20 @@ class CartCubit extends Cubit<CartState> {
     }
   }
 
-  Future<void> addItemToCart(int id, int value,int? qunt) async {
-    repo.updateCart(value, id,qunt);
+  Future<void> addItemToCart(int id, int value, int? qunt) async {
+    repo.updateCart(value, id, qunt);
     await init();
     await ProductCubit.instance.init();
     emit(CartStateLoaded());
   }
 
-/*  void addItemToCart(int id) {
-    repo.updateCart(1, id);
-    emit(CartStateLoaded());
-  }*/
+  double calculateTotalPrice() {
+    double totalPrice = 0;
+    for (var product in products) {
+    //  if(product.cart==1) {
+        totalPrice +=product.price!;
+      //}
+    }
+    return totalPrice;
+  }
 }

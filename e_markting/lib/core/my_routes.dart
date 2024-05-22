@@ -24,9 +24,9 @@ class MyRoutes {
   static List<Route> initRoutes(bool x) {
   return [
     MaterialPageRoute<dynamic>(
-  //    builder: (BuildContext context) => VerificationPage(),
+    //  builder: (BuildContext context) => RegistrationPage(),
      builder: (BuildContext context) => const OnBoardingPage(),
-  //    builder: (BuildContext context) => const DashboardPage(),
+  //  builder: (BuildContext context) => const DashboardPage(),
     /*  builder: (BuildContext context) {
         return FutureBuilder<Builder>(
           future: m(x),

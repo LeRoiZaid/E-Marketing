@@ -9,19 +9,16 @@ class DatabaseRepo {
   Future<void> initDB() async {
     myObjectDB = await openDatabase(
       (await getDatabasesPath()) + '/productDB.db',
-      version: 1,
+      version: 2,
       onCreate: (db, version) async {
         await db.execute('''
-CREATE TABLE product (
-             id INTEGER PRIMARY KEY AUTOINCREMENT,
-             name TEXT NOT NULL,
-             description TEXT, 
-             image BLOB,
-             quantity INTEGER,
-             availableQuantity INTEGER,
-             favorite INTEGER,
-             cart INTEGER
-              )''');
+CREATE TABLE product (id INTEGER PRIMARY KEY, 
+name TEXT, description TEXT,
+ quantity INTEGER,
+  availableQuantity INTEGER, 
+  image BLOB,
+   price REAL, favorite INTEGER,
+    cart INTEGER)''');
       },
     );
   }
@@ -45,19 +42,22 @@ CREATE TABLE product (
         .map((e) => ProductModel.fromJson(e))
         .toList();
   }
-
-  Future<void> insertProduct(String name, String desc, int quantity,
-      int availableQuantity, Uint8List image) async {
-    await myObjectDB.insert('product', {
+  Future<void> insertProduct(Database db, String name, String description, int quantity, int availableQuantity, Uint8List image, double price, int favorite, int cart) async {
+  await db.insert(
+    'product',
+    {
       'name': name,
-      'description': desc,
+      'description': description,
       'quantity': quantity,
       'availableQuantity': availableQuantity,
       'image': image,
-      'favorite': 0,
-      'cart': 0,
-    });
-  }
+      'price': price,
+      'favorite': favorite,
+      'cart': cart,
+    },
+    conflictAlgorithm: ConflictAlgorithm.replace,
+  );
+}
 
   void newQuantity(int qnt, int id) {
     myObjectDB.update(
