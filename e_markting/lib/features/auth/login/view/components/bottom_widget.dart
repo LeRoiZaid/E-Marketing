@@ -9,7 +9,10 @@ class BottomNavigationWidget extends StatelessWidget {
   BottomNavigationWidget({Key? key, required this.controller});
 
   final LoginCubit controller;
-
+  var c = ButtonStyle(
+      fixedSize: MaterialStateProperty.all<Size>(
+    Size(250, 60), // ضع هنا الطول والعرض المطلوبين
+  ));
   @override
   Widget build(BuildContext context) {
     return BlocProvider.value(
@@ -27,15 +30,14 @@ class BottomNavigationWidget extends StatelessWidget {
                 ),
                 child: ElevatedButton(
                   onPressed: () => controller.onPressedConfirmButton(context),
-                  style: ElevatedButton.styleFrom(
-                    shape: const StadiumBorder(),
-                    padding: const EdgeInsets.symmetric(vertical: 16),
-                    backgroundColor: const Color.fromARGB(255, 3, 32, 112),
-                  ),
-                  child: const Text(
-                    "                                Sign In                                 ",
-                    style: TextStyle(fontSize: 20, color: Colors.white),
-                  ),
+                
+                  
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(vertical: 16),
+                      child: Text(
+                        "Sign In",
+                        style: TextStyle(fontSize: 20, color: Colors.black),
+                      )),  style: c,
                 ),
               ),
               const SizedBox(height: 10),
@@ -51,17 +53,16 @@ class BottomNavigationWidget extends StatelessWidget {
                   ),
                   GestureDetector(
                     onTap: () {
-                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => const RegistrationPage()));
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => const RegistrationPage()));
                     },
-                    child:  const Text(
+                    child: const Text(
                       "Registration",
-                      style:  TextStyle(
-                        color: Color.fromARGB(255, 126, 117, 231),
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        decoration: TextDecoration.underline,
-                        decorationThickness: 3,
-                        decorationColor: Color.fromARGB(255, 22, 2, 248),
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.blue, // لون النص الأساسي
+                        fontWeight: FontWeight.bold, // سمك الخط
+                        fontStyle: FontStyle.italic, // نمط الخط
                       ),
                     ),
                   ),
@@ -80,17 +81,16 @@ class BottomNavigationWidget extends StatelessWidget {
                   ),
                   GestureDetector(
                     onTap: () {
-                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => const ChangePassPage()));
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => const ChangePassPage()));
                     },
-                    child:  const Text(
+                    child: const Text(
                       "Change Password",
-                  style:  TextStyle(
-                        color: Color.fromARGB(255, 126, 117, 231),
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                        decoration: TextDecoration.underline,
-                        decorationThickness: 3,
-                        decorationColor: Color.fromARGB(255, 22, 2, 248),
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Colors.blue, // لون النص الأساسي
+                        fontWeight: FontWeight.bold, // سمك الخط
+                        fontStyle: FontStyle.italic, // نمط الخط
                       ),
                     ),
                   ),

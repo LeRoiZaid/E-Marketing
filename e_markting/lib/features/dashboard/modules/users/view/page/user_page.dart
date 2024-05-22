@@ -7,7 +7,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class UserPage extends StatelessWidget {
   const UserPage({super.key});
-
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
@@ -28,10 +27,6 @@ class UserPage extends StatelessWidget {
                     : GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 1, crossAxisSpacing: 10, mainAxisSpacing: 10),
-                        // separatorBuilder: (_, int index) => const Divider(
-                        //       height: 1,
-                        //       thickness: 5,
-                        //     ),
                         itemCount: controller.users.length,
                         itemBuilder: (_, int index) {
                           return UserItemWidget(userModel: controller.users[index]);

@@ -21,5 +21,18 @@ class MyValidation {
                   }
                   return null;
 
+}String? validateAge(String? value) {
+  if (value == null || value.isEmpty) {
+    return 'Please enter your age';
+  }
+  int? age = int.tryParse(value);
+  if (age == null) {
+    return 'Please enter a valid number';
+  }
+  if (age < 18) {
+    return 'Age must be 18 or mor';
+  }
+  return null;
 }
+
 }

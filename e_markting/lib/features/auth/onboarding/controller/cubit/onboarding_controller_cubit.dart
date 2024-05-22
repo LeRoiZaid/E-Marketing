@@ -1,6 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:e_markting/features/auth/Registration/view/page/registration_page.dart';
 import 'package:e_markting/features/auth/onboarding/model/onbording_model.dart';
+import 'package:e_markting/features/dashboard/view/page/dashboard_page.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -24,7 +25,7 @@ class OnboardingControllerCubit extends Cubit<OnboardingControllerState> {
           duration: const Duration(milliseconds: 250), curve: Curves.linear);
     }
     else{
-      Navigator.of(context).push(MaterialPageRoute(builder: (context) => const RegistrationPage()));
+      Navigator.of(context).push(MaterialPageRoute(builder: (context) => const DashboardPage()));
 
     }
   }
@@ -35,7 +36,7 @@ class OnboardingControllerCubit extends Cubit<OnboardingControllerState> {
     Navigator.push(
       context,
       MaterialPageRoute<void>(
-        builder: (BuildContext context) => const RegistrationPage(),
+        builder: (BuildContext context) => const DashboardPage(),
       ),
     );
   }

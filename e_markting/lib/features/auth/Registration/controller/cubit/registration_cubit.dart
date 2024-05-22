@@ -13,8 +13,11 @@ class RegistrationCubit extends Cubit<RegistrationState> {
   RegistrationCubit() : super(RegistrationInitial());
   TextEditingController UserNameController = TextEditingController();
   TextEditingController EmailController = TextEditingController();
+  TextEditingController AddressController = TextEditingController();
+  TextEditingController AgeController = TextEditingController();
   TextEditingController PasswordController = TextEditingController();
   TextEditingController ConfirmPassController = TextEditingController();
+  TextEditingController ErrorController = TextEditingController();
   GlobalKey<FormState> formKey = GlobalKey<FormState>();
   Future<void> onPressedConfirmButton(BuildContext context) async {
     if (formKey.currentState!.validate()) {
@@ -24,8 +27,8 @@ class RegistrationCubit extends Cubit<RegistrationState> {
             name: UserNameController.text,
             email: EmailController.text,
             pass: PasswordController.text,
-            age: 10,
-            address: 'address');
+            age: int.parse(AgeController.text),
+            address: AddressController.text);
 
         Navigator.pushNamed(context, 'verfiction', arguments: [
           UserNameController.text,
@@ -34,8 +37,10 @@ class RegistrationCubit extends Cubit<RegistrationState> {
         log(EmailController.text);
         log(PasswordController.text);
         log(ConfirmPassController.text);
+        ErrorController.text = "";
       }
     } else {
+      ErrorController.text = "INVALID INPUT";
       log('invalid inputs');
     }
   }

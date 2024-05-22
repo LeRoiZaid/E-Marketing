@@ -27,43 +27,13 @@ class NewProductPage extends StatelessWidget {
     fontWeight: FontWeight.bold, // سمك الخط
     fontStyle: FontStyle.italic, // نمط الخط
   );
-       var c = ButtonStyle(
-  
-  backgroundColor: MaterialStateProperty.all<Color>(
-    Colors.blue[700]!,
-  ),
-  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-    RoundedRectangleBorder(
-      borderRadius: BorderRadius.circular(10),
-    ),
-  ),
-  elevation: MaterialStateProperty.all<double>(10),
-);
-     InputDecoration decoration = InputDecoration(
-            hintStyle: const TextStyle(
-          color: Color.fromARGB(255, 78, 115, 144), // لون النص التلميحي
-            fontStyle: FontStyle.italic, // نمط الخط للنص التلميحي
-          ),
-          
-            border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(8),
-              borderSide:
-                  BorderSide(color: Colors.blue[700]!), // Adjusted color
-            ),
-            filled: true,
-            fillColor: Colors.blue[50], // Adjusted color
-            contentPadding: EdgeInsets.all(16),
-          );
+      var c = ButtonStyle(
+      fixedSize: MaterialStateProperty.all<Size>(
+    Size(250, 60), // ضع هنا الطول والعرض المطلوبين
+  ));
+    
             return Scaffold(
-            appBar: AppBar(
-              title: const Text('Add New Product',style: TextStyle(
-    fontSize: 20,
-    color: Color.fromARGB(197, 0, 0, 0), // لون النص الأساسي
-    fontWeight: FontWeight.bold, // سمك الخط
-  
-               ),),
-              backgroundColor: Colors.blue[700], // Adjusted color
-            ),
+          
             body: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
               child: Column(
@@ -83,7 +53,7 @@ class NewProductPage extends StatelessWidget {
                     autovalidateMode: AutovalidateMode.onUserInteraction,
                     keyboardType: TextInputType.name,
                     controller: cubit.nameController,
-                    decoration: decoration.copyWith(
+                    decoration: InputDecoration(
                     hintText: 'Enter Product Name'),
                   ),
                   SizedBox(height: 16),
@@ -94,10 +64,19 @@ class NewProductPage extends StatelessWidget {
                     maxLines: 5,
                     expands:true,
                     controller: cubit.descController,
-                    decoration: decoration.copyWith(
+                    decoration: InputDecoration(
                     alignLabelWithHint:false,  
                    contentPadding: EdgeInsets.symmetric(vertical: 30),
                     hintText: 'Enter Product '),
+                  ),
+                  SizedBox(height: 16),
+                  Text('Product Price', style: x),
+                  EsmailTextField(
+                    autovalidateMode: AutovalidateMode.onUserInteraction,
+                    keyboardType: TextInputType.number,
+                    controller: cubit.priceController,
+                    decoration: InputDecoration(
+                    hintText: 'Enter Product Price'),
                   ),
                   SizedBox(height: 16),
                   Text('Available Count', style: x),
@@ -105,7 +84,7 @@ class NewProductPage extends StatelessWidget {
                     autovalidateMode: AutovalidateMode.onUserInteraction,
                     keyboardType: TextInputType.number,
                     controller: cubit.qntController,
-                    decoration: decoration.copyWith(
+                    decoration: InputDecoration(
                     hintText: 'Enter Available Count'),
                   ),
                   SizedBox(height: 16),
@@ -144,19 +123,21 @@ class NewProductPage extends StatelessWidget {
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       child: Text(
                         "Add Product",
-                        style: TextStyle(fontSize: 18, color: Colors.white),
+                        style: TextStyle(fontSize: 20, color: Colors.black)
                       ),
                     ),
                     style: c, // Using the local variable
                   ),
                     SizedBox(height: 16),
                   ElevatedButton(
-                    onPressed: () {},
+                      onPressed: () {
+        Navigator.pushNamed(context, 'dashboard');
+       },
                     child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       child: Text(
                         "Cancle",
-                        style: TextStyle(fontSize: 18, color: Colors.white),
+                      style: TextStyle(fontSize: 20, color: Colors.black)
                       ),
                     ),
                     style: c, // Using the local variable

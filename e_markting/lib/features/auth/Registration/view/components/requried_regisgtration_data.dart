@@ -2,6 +2,7 @@ import 'dart:typed_data';
 
 import 'package:e_markting/core/esmail_textfield_state.dart';
 import 'package:e_markting/features/auth/Registration/controller/cubit/registration_cubit.dart';
+import 'package:e_markting/features/auth/change%20password/view/components/text_name_formater.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:e_markting/core/validation.dart';
@@ -64,6 +65,26 @@ class RequriedRegistrationData extends StatelessWidget {
                         prefixIcon: const Icon(Icons.email_outlined)),
                   ),
                   const SizedBox(height: 20),
+                  EsmailTextField(
+                    autovalidateMode: AutovalidateMode.onUserInteraction,
+                    controller: controller.AddressController,
+                    keyboardType: TextInputType.emailAddress,
+                    //validator: MyValidation().nameValidate,
+                    decoration: InputDecoration(
+                        hintText: 'Address',
+                        prefixIcon: const Icon(Icons.add_home)),
+                  ),
+                  const SizedBox(height: 20),
+                  EsmailTextField(
+                    autovalidateMode: AutovalidateMode.onUserInteraction,
+                    controller: controller.AgeController,
+                    keyboardType: TextInputType.number,
+                    validator: MyValidation().validateAge ,
+                    decoration: InputDecoration(
+                        hintText: 'Age',
+                        prefixIcon: const Icon(Icons.person_pin_outlined)),
+                  ),
+                  const SizedBox(height: 20),
 
                   ///Password
                   EsmailTextField(
@@ -78,7 +99,7 @@ class RequriedRegistrationData extends StatelessWidget {
                     obscureText: true,
                   
                   ),
-                  const SizedBox(height: 20),
+                  const SizedBox(height: 20,),
 
                   ///Confirm Password
                   EsmailTextField(

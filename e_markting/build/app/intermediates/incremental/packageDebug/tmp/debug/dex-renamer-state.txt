@@ -1,4 +1,4 @@
-#Fri May 17 09:37:13 EEST 2024
+#Wed May 22 08:24:25 EEST 2024
 base.0=C\:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 base.1=C\:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
 base.2=C\:\\Users\\EL7RAQ\\Documents\\GitHub\\Project\\e_markting\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class EsmailTextField extends StatefulWidget {
   final FormFieldValidator<String>? validator;
   final TextEditingController? controller;
