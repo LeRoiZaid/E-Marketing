@@ -1,4 +1,7 @@
+
+<p align="center">
 # 📱 E-Markting App
+</p>
 
 **E-Markting** is a mobile application built with **Flutter** that allows users to publish products, set prices, browse listings, and make purchases seamlessly. The app focuses on providing a smooth user experience enhanced with **animations** for engaging navigation and interactions.
 
@@ -65,11 +68,13 @@ Code
  ```
 <img width="172" height="167" alt="image" src="https://github.com/user-attachments/assets/d20281d8-2f54-49cb-98e8-2eac67b981e8" />
 
-👨‍💻 Contributors
+
+<p align="center">👨‍💻 Contributors
 LeRoiZaid (Owner & Developer)
+</p>
 
-
+<p align="center">
 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.</p>
 
 
