@@ -49,31 +49,27 @@ Code
 1. Clone the repository:
    ```bash
    git clone https://github.com/LeRoiZaid/E-Marketing.git
-Navigate to the project directory:
+2.Navigate to the project directory:
+  ```bash
+  cd e_markting
+ ```
+3.Install dependencies:
 
-bash
-cd e_markting
-Install dependencies:
+  ```bash
+ flutter pub get
+ ```
+##Run the app:
 
-bash
-flutter pub get
-Run the app:
-
-bash
-flutter run
+```bash
+    flutter run
+ ```
 <img width="172" height="167" alt="image" src="https://github.com/user-attachments/assets/d20281d8-2f54-49cb-98e8-2eac67b981e8" />
-<img width="172" height="167" alt="image" src="[https://github.com/user-attachments/assets/d20281d8-2f54-49cb-98e8-2eac67b981e8](https://github.com/LeRoiZaid/E-Marketing/blob/main/e_markting/assets/images/logo.png)" />
-
-
 
 👨‍💻 Contributors
 LeRoiZaid (Owner & Developer)
 
+
 📜 License
 This project is licensed under the MIT License.
 
-Code
 
----
-
-This schema section makes your README l
