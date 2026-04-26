@@ -1,6 +1,6 @@
 
 <p align="center">
-# 📱 E-Markting App
+📱 E-Markting App
 </p>
 
 **E-Markting** is a mobile application built with **Flutter** that allows users to publish products, set prices, browse listings, and make purchases seamlessly. The app focuses on providing a smooth user experience enhanced with **animations** for engaging navigation and interactions.
@@ -61,13 +61,15 @@ Code
   ```bash
  flutter pub get
  ```
-##Run the app:
+Run the app:
 
 ```bash
     flutter run
  ```
-<img width="172" height="167" alt="image" src="https://github.com/user-attachments/assets/d20281d8-2f54-49cb-98e8-2eac67b981e8" />
 
+<p align="center">
+<img width="250" height="230" alt="image" src="https://github.com/user-attachments/assets/d20281d8-2f54-49cb-98e8-2eac67b981e8" />
+</p>
 
 <p align="center">👨‍💻 Contributors
 LeRoiZaid (Owner & Developer)
